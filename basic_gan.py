@@ -8,6 +8,7 @@ Original file is located at
 """
 
 #discriminator model
+#use convolutions with (2, 2) strides instead of Maxpooling
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
